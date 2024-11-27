@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: kolosiv/news-aggr:latest
+    image: kolosiv/newsaggr:latest
     container_name: my_go_app
     depends_on:
       - db
